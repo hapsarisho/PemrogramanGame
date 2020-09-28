@@ -2,17 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BasicScript : MonoBehaviour
+public class Prajurit : Manusia
 {
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Saya Hapsari adalah Game Developer.");
+        Debug.Log("Seorang prajurit dapat: ");
+        Makan();
+        Tidur();
+        Menyerang();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void Menyerang() {
+        Debug.Log("Menyerang.");
     }
 }
